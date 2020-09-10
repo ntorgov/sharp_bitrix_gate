@@ -3,3 +3,5 @@
 ################################################################################
 
 /bitrix_gate/bin/Debug/netcoreapp3.1
+/bitrix_gate/obj
+/.vs/bitrix_gate
