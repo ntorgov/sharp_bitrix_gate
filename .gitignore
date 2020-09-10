@@ -5,3 +5,5 @@
 /bitrix_gate/bin/Debug/netcoreapp3.1
 /bitrix_gate/obj
 /.vs/bitrix_gate
+/bitrix_gate/Properties/Resources.resx
+/bitrix_gate/Properties/Resources.Designer.cs
