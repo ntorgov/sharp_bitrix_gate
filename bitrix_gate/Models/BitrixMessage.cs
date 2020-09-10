@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace bitrix_gate.Models
 {
@@ -9,31 +10,37 @@ namespace bitrix_gate.Models
 		/// <summary>
 		/// ID сообщения
 		/// </summary>
-		public long id { get; set; }
+		[JsonPropertyName("id")]
+		public long Id { get; set; }
 
 		/// <summary>
 		/// ID чата
 		/// </summary>
-		public string chat_id { get; set; }
+		[JsonPropertyName("chat_id")]
+		public string ChatId { get; set; }
 
 		/// <summary>
 		/// ID автора
 		/// </summary>
-		public string author_id { get; set; }
+		[JsonPropertyName("author_id")]
+		public string AuthorId { get; set; }
 
 		/// <summary>
 		/// Дата
 		/// </summary>
-		public string date { get; set; }
+		[JsonPropertyName("date")]
+		public string Date { get; set; }
 
 		/// <summary>
 		/// Сообщение
 		/// </summary>
-		public string text { get; set; }
+		[JsonPropertyName("text")]
+		public string Text { get; set; }
 
 		/// <summary>
 		/// Флаг прочтения
 		/// </summary>
-		public bool unread { get; set; }
+		[JsonPropertyName("unread")]
+		public bool Unread { get; set; }
 	}
 }
